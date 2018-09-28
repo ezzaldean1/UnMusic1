@@ -13,12 +13,20 @@ client.on('ready', () => {
   console.log(' Music Bot Is Online')
   console.log('---------------')
   client.user.setStatus("Online")
-    client.user.setActivity(" Type 2help",{type: 'WATCHING'})
+    client.user.setActivity(" Prestige Shop",{type: 'WATCHING'})
 	
 });
 	
             var prefix = "2" ;
 	
+	
+
+	
+client.on('ready', () => {
+
+    client.channels.find(c => c.id === '485083339343265803').join();
+
+});
 	
 	/*
 البكجآت
